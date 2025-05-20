@@ -4,25 +4,39 @@
 1. Created a GitHub repo named HealthApp
 
 2. Created a virtual environment:
-    ##### python -m venv Myenv
+```bash
+python -m venv Myenv
+```
 
 3. Activated the virtual environment:
-    ##### Myenv\Scripts\Activate
+```bash
+Myenv\Scripts\Activate
+```
 
 4. Installed Django inside the virtual environment:
-    ##### pip install django
+```bash
+pip install django
+```
 
 5. Checked Django version to verify installation:
-    ##### django-admin --version
+```bash
+django-admin --version
+```
 
 6. Created a Django project named Health:
-    ##### django-admin startproject Health .
+```bash
+django-admin startproject Health .
+```
 
 7. Created a Django app named patients:
-    ##### python manage.py startapp patients
+```bash
+python manage.py startapp patients
+```
 
 8. Applied initial database migrations:
-    ##### python manage.py migrate
+```bash
+python manage.py migrate
+```
 
 10. Created view functions in patients/views.py
 
